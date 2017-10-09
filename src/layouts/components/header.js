@@ -10,6 +10,7 @@ const Header = () => (
         </Link>
         <div className="menu">
           <Link className="menu-link" to="/about">
+            <i class="fa fa-bolt" aria-hidden="true" />
             About
           </Link>
           <Link className="menu-link" to="/projects">

@@ -1,4 +1,6 @@
 header {
+  background: $light-grey;
+  border-bottom: 2px solid $grey;
 }
 
 .my_items {
@@ -26,4 +28,5 @@ header {
 
 .logo > h1 {
   font-weight: normal;
+  margin: $s-size;
 }
