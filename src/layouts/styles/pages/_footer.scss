@@ -1,7 +1,13 @@
 footer {
   background: $light-grey;
   border-top: 2px solid $grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: $off-black;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer__p {
+  font-family: $heading;
+  font-size: $m-size;
+  letter-spacing: 1.5px;
 }

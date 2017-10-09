@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 const Footer = () => (
   <footer>
-    <p>Tom Vorel 2017</p>
+    <p className="footer__p">Tom Vorel 2017</p>
   </footer>
 );
 

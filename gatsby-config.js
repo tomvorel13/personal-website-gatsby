@@ -1,7 +1,16 @@
 module.exports = {
   pathPrefix: `/tom-vorel-2017`,
   siteMetadata: {
-    title: `Gatsby Default Starter`
+    title: `Tom Vorel 2017`
   },
-  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-sass`]
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Dosis`, `Open Sans\:400,800`]
+      }
+    }
+  ]
 };

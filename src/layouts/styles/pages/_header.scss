@@ -1,6 +1,7 @@
 header {
   background: $light-grey;
   border-bottom: 2px solid $grey;
+  color: $off-black;
 }
 
 .my_items {
@@ -21,9 +22,20 @@ header {
 .logo:visited,
 .menu-link:visited {
   color: black;
+  font-family: $heading;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
+  padding: $s-size;
+  border-bottom: 2px solid $light-grey;
+}
+
+.menu-link:hover {
+  border-bottom: 2px solid $off-black;
+}
+
+.logo {
+  padding: 0;
 }
 
 .logo > h1 {

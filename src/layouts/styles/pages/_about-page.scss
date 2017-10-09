@@ -4,3 +4,15 @@
   flex-direction: column;
   padding-top: $m-pm;
 }
+
+.about__h1 {
+  font-family: $heading;
+  font-size: $xl-size;
+}
+
+.about__text {
+  font-family: $text;
+  font-size: $m-size;
+  max-width: 65%;
+  line-height: 1.5;
+}
