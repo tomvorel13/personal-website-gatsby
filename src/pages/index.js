@@ -2,9 +2,12 @@ import React from "react";
 import Link from "gatsby-link";
 
 const IndexPage = () => (
-  <div>
-    <h1>Homepage</h1>
-    <p>Welcome to my personal site!</p>
+  <div className="homepage__div">
+    <h1>Front End Developer</h1>
+    <p>
+      I am a self taught front end web developer, with the main focus on React
+      and its ecosystem.
+    </p>
   </div>
 );
 

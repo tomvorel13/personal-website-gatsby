@@ -1,0 +1,29 @@
+header {
+}
+
+.my_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+.menu-link,
+.logo:visited,
+.menu-link:visited {
+  color: black;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo > h1 {
+  font-weight: normal;
+}
