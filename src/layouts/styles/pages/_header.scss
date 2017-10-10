@@ -28,6 +28,7 @@ header {
   text-decoration: none;
   padding: $s-size;
   border-bottom: 2px solid $light-grey;
+  transition: 0.5s ease;
 }
 
 .menu-link:hover {

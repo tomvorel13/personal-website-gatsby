@@ -9,3 +9,14 @@
   font-family: $heading;
   font-size: $xl-size;
 }
+
+.contact__p {
+  font-family: $text;
+  font-size: $m-size;
+}
+
+.contact__p > a {
+  color: $off-black;
+  font-weight: 600;
+  text-decoration: none;
+}

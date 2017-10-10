@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 
 import "normalize.css/normalize.css";
 import "./styles/index.scss";
+import "font-awesome/css/font-awesome.min.css";
 
 import Header from "./components/header";
 import Footer from "./components/footer";
