@@ -5,29 +5,30 @@ header {
 }
 
 .my_items {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 
 .menu {
-  width: 30rem;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  max-width: 30rem;
 }
 
 .logo,
 .menu-link,
 .logo:visited,
 .menu-link:visited {
+  border-bottom: 2px solid $light-grey;
   color: black;
   font-family: $heading;
+  font-size: $m-size;
   letter-spacing: 1px;
+  padding: $s-size;
   text-transform: uppercase;
   text-decoration: none;
-  padding: $s-size;
-  border-bottom: 2px solid $light-grey;
   transition: 0.5s ease;
 }
 
@@ -37,9 +38,18 @@ header {
 
 .logo {
   padding: 0;
+  h1 {
+    font-weight: normal;
+    margin: $s-size;
+  }
 }
 
-.logo > h1 {
-  font-weight: normal;
-  margin: $s-size;
+@media (max-width: $desktop-breakpoint) {
+  .menu-link {
+    font-size: $s-size;
+  }
+
+  .logo {
+    font-size: $m-size;
+  }
 }

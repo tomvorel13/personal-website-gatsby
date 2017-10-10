@@ -11,3 +11,19 @@
   font-family: $text;
   font-size: 2rem;
 }
+
+@media (max-width: $desktop-breakpoint) {
+  .homepage__div {
+    max-width: 95%;
+    padding-top: $m-pm;
+    text-align: center;
+  }
+
+  .homepage__h1 {
+    font-size: 4rem;
+  }
+
+  .homepage__p {
+    font-size: 2rem;
+  }
+}

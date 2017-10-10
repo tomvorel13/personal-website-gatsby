@@ -13,10 +13,16 @@
 .contact__p {
   font-family: $text;
   font-size: $m-size;
+  line-height: 1.5;
+  a {
+    color: $off-black;
+    font-weight: 600;
+    text-decoration: none;
+  }
 }
 
-.contact__p > a {
-  color: $off-black;
-  font-weight: 600;
-  text-decoration: none;
+@media (max-width: $desktop-breakpoint) {
+  .contact__p {
+    text-align: center;
+  }
 }

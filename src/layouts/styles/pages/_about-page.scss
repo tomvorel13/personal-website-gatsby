@@ -13,6 +13,12 @@
 .about__text {
   font-family: $text;
   font-size: $m-size;
-  max-width: 65%;
   line-height: 1.5;
+  max-width: 65%;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .about__text {
+    max-width: 95%;
+  }
 }
