@@ -20,5 +20,6 @@
 @media (max-width: $desktop-breakpoint) {
   .about__text {
     max-width: 95%;
+    padding-bottom: $l-size;
   }
 }
