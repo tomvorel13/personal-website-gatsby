@@ -4,4 +4,4 @@ This is the new version of my personal website. I decided that I was gonna creat
 
 Still in progress...
 
-The site is currently live on: https://tomvorel13.github.io/tom-vorel-2017/
+The site is currently live on: http://tomvorel.com
