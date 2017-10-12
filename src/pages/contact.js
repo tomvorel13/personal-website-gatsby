@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => (
-  <div className="contact__div">
+  <div className="contact__div animated fadeIn">
     <h1 className="contact__h1">Contact page</h1>
     <p className="contact__p">
       For any enquiries, feel free to contact me at{" "}

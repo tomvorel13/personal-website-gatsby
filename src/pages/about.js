@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 
 const About = () => (
-  <div className="about__div">
+  <div className="about__div animated fadeIn">
     <h1 className="about__h1">About Me</h1>
     <div className="about__text">
       <p>Hi, I'm Tom Vorel.</p>

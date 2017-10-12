@@ -1,7 +1,7 @@
 import React from "react";
 
 const Projects = () => (
-  <div className="projects__div">
+  <div className="projects__div animated fadeIn">
     <h1 className="projects__h1">Projects</h1>
     {/* ******************PROJECT no.1****************** */}
     <div className="projects__project">
