@@ -15,7 +15,7 @@
 @media (max-width: $desktop-breakpoint) {
   .homepage__div {
     max-width: 95%;
-    padding-top: $m-pm;
+    padding: $m-pm $m-size $m-size $m-size;
     text-align: center;
   }
 

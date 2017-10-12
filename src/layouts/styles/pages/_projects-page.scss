@@ -1,3 +1,11 @@
+.projects__description {
+  flex: 2;
+  p {
+    font-family: $text;
+    line-height: 1.5;
+  }
+}
+
 .projects__div {
   align-items: center;
   display: flex;
@@ -8,4 +16,43 @@
 .projects__h1 {
   font-family: $heading;
   font-size: $xl-size;
+}
+
+.projects__img {
+  flex: 1;
+  h2 {
+    font-family: $heading;
+    text-align: center;
+  }
+}
+
+.projects__link {
+  color: $black;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.projects__link:hover {
+  font-weight: bold;
+}
+
+.projects__project {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .projects__description {
+    p {
+      text-align: center;
+    }
+  }
+
+  .projects__div {
+    padding: 0 $m-size $m-size $m-size;
+  }
+
+  .projects__project {
+    flex-direction: column;
+  }
 }
