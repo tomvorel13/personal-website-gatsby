@@ -1,7 +1,6 @@
 header {
-  background: $light-grey;
-  border-bottom: 2px solid $grey;
-  color: $off-black;
+  background: $off-black;
+  color: $green;
 }
 
 .my_items {
@@ -21,8 +20,8 @@ header {
 .menu-link,
 .logo:visited,
 .menu-link:visited {
-  border-bottom: 2px solid $light-grey;
-  color: black;
+  border-bottom: 2px solid $off-black;
+  color: $green;
   font-family: $heading;
   font-size: $m-size;
   letter-spacing: 1px;
@@ -30,10 +29,12 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   transition: 0.5s ease;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
 }
 
 .menu-link:hover {
-  border-bottom: 2px solid $off-black;
+  color: $light-green;
+  border-bottom: 2px solid $light-green;
 }
 
 .logo {
@@ -41,6 +42,7 @@ header {
   h1 {
     font-weight: normal;
     margin: $s-size;
+    color: $light-green;
   }
 }
 
