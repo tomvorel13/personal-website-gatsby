@@ -8,7 +8,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Dosis`, `Open Sans\:400,800`]
+        fonts: [
+          `Dosis`,
+          `Open Sans\:400,800`,
+          `Saira Semi Condensed\:400,600,700`
+        ]
       }
     }
   ]
